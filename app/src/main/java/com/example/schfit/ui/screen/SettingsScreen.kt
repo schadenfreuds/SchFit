@@ -66,6 +66,9 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.material.icons.filled.Language
@@ -538,11 +541,111 @@ fun SettingsScreen(
                 }
             }
 
-            // 5. UYGULAMA BİLGİSİ & EASTER EGG (7 TIK İLE GELİŞTİRİCİ MODU)
+            // 5. THE SCH SUITE EKOSİSTEM KARTI
+            Card(
+                modifier = Modifier.fillMaxWidth(),
+                shape = RoundedCornerShape(18.dp),
+                colors = CardDefaults.cardColors(
+                    containerColor = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.65f)
+                ),
+                border = BorderStroke(1.dp, MaterialTheme.colorScheme.primary.copy(alpha = 0.25f))
+            ) {
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(16.dp),
+                    verticalArrangement = Arrangement.spacedBy(14.dp)
+                ) {
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Text(
+                                text = buildAnnotatedString {
+                                    withStyle(style = SpanStyle(color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.Black)) {
+                                        append("The Sch ")
+                                    }
+                                    withStyle(style = SpanStyle(color = MaterialTheme.colorScheme.onSurface, fontWeight = FontWeight.ExtraBold)) {
+                                        append("Suite")
+                                    }
+                                },
+                                style = MaterialTheme.typography.titleMedium
+                            )
+                            Spacer(modifier = Modifier.width(8.dp))
+                            Surface(
+                                shape = RoundedCornerShape(6.dp),
+                                color = MaterialTheme.colorScheme.primary.copy(alpha = 0.15f),
+                                border = BorderStroke(1.dp, MaterialTheme.colorScheme.primary.copy(alpha = 0.4f))
+                            ) {
+                                Text(
+                                    text = "CANOS",
+                                    modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp),
+                                    style = MaterialTheme.typography.labelSmall.copy(
+                                        fontSize = 8.sp,
+                                        fontWeight = FontWeight.Black,
+                                        letterSpacing = 1.sp
+                                    ),
+                                    color = MaterialTheme.colorScheme.primary
+                                )
+                            }
+                        }
+
+                        Text(
+                            text = "v1.0.0",
+                            style = MaterialTheme.typography.labelSmall.copy(fontWeight = FontWeight.Bold),
+                            color = MaterialTheme.colorScheme.primary
+                        )
+                    }
+
+                    Text(
+                        text = "CanOS Kişisel Üretkenlik ve Yaşam Yönetimi Ekosistemi",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+
+                    HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+
+                    // Suite Modülleri
+                    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                        SuiteModuleItem(
+                            icon = "🏋️‍♂️",
+                            name = "SchFit",
+                            desc = "Fitness & Ağırlık Takibi (Bu Uygulama)",
+                            badge = "AKTİF",
+                            isCurrent = true
+                        )
+                        SuiteModuleItem(
+                            icon = "💰",
+                            name = "SchBudget",
+                            desc = "Bütçe & Harcama Pusulası",
+                            badge = "V4 YAYINDA",
+                            isCurrent = false
+                        )
+                        SuiteModuleItem(
+                            icon = "📚",
+                            name = "SchStudy",
+                            desc = "YKS & IELTS Odak Kronometresi",
+                            badge = "YAKINDA",
+                            isCurrent = false
+                        )
+                        SuiteModuleItem(
+                            icon = "🧠",
+                            name = "SchBrain",
+                            desc = "Düşünce & Obsidian Hafıza Çekirdeği",
+                            badge = "BAĞLI",
+                            isCurrent = false
+                        )
+                    }
+                }
+            }
+
+            // EASTER EGG & MARKA İMZASI (7 TIK İLE GELİŞTİRİCİ MODU)
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(vertical = 12.dp)
+                    .padding(vertical = 8.dp)
                     .clip(RoundedCornerShape(12.dp))
                     .clickable {
                         if (uiState.isDeveloperModeEnabled) {
@@ -560,8 +663,9 @@ fun SettingsScreen(
                 verticalArrangement = Arrangement.spacedBy(4.dp)
             ) {
                 Surface(
-                    shape = CircleShape,
+                    shape = RoundedCornerShape(10.dp),
                     color = MaterialTheme.colorScheme.primaryContainer,
+                    border = BorderStroke(1.dp, MaterialTheme.colorScheme.primary.copy(alpha = 0.35f)),
                     modifier = Modifier.size(40.dp)
                 ) {
                     Box(contentAlignment = Alignment.Center) {
@@ -574,12 +678,18 @@ fun SettingsScreen(
                     }
                 }
                 Text(
-                    text = "SchFit v1.0.0",
-                    style = MaterialTheme.typography.titleSmall.copy(fontWeight = FontWeight.Bold),
-                    color = MaterialTheme.colorScheme.onSurface
+                    text = buildAnnotatedString {
+                        withStyle(style = SpanStyle(color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.Black)) {
+                            append("Sch")
+                        }
+                        withStyle(style = SpanStyle(color = MaterialTheme.colorScheme.onSurface, fontWeight = FontWeight.Bold)) {
+                            append("Fit • The Sch Suite")
+                        }
+                    },
+                    style = MaterialTheme.typography.titleSmall
                 )
                 Text(
-                    text = "SchFit Gym & Workout Tracker",
+                    text = "Crafted with Sch for CanOS",
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
@@ -1016,6 +1126,65 @@ fun ThemeSelectionItem(
                     modifier = Modifier.size(22.dp)
                 )
             }
+    }
+}
+
+@Composable
+private fun SuiteModuleItem(
+    icon: String,
+    name: String,
+    desc: String,
+    badge: String,
+    isCurrent: Boolean
+) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(10.dp))
+            .background(
+                if (isCurrent) MaterialTheme.colorScheme.primary.copy(alpha = 0.12f)
+                else Color.Transparent
+            )
+            .padding(horizontal = 8.dp, vertical = 6.dp),
+        horizontalArrangement = Arrangement.SpaceBetween,
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            modifier = Modifier.weight(1f)
+        ) {
+            Text(text = icon, fontSize = 16.sp)
+            Spacer(modifier = Modifier.width(10.dp))
+            Column {
+                Text(
+                    text = name,
+                    style = MaterialTheme.typography.bodyMedium.copy(
+                        fontWeight = if (isCurrent) FontWeight.ExtraBold else FontWeight.SemiBold
+                    ),
+                    color = if (isCurrent) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurface
+                )
+                Text(
+                    text = desc,
+                    style = MaterialTheme.typography.bodySmall.copy(fontSize = 11.sp),
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            }
+        }
+
+        Surface(
+            shape = RoundedCornerShape(4.dp),
+            color = if (isCurrent) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.surfaceVariant,
+            modifier = Modifier.padding(start = 6.dp)
+        ) {
+            Text(
+                text = badge,
+                modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp),
+                style = MaterialTheme.typography.labelSmall.copy(
+                    fontSize = 8.sp,
+                    fontWeight = FontWeight.Bold
+                ),
+                color = if (isCurrent) Color.Black else MaterialTheme.colorScheme.onSurfaceVariant
+            )
         }
     }
 }

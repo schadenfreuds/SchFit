@@ -1,5 +1,11 @@
 # 🏋️‍♂️ SchFit
 
+<p align="center">
+  <img src="docs/schfit_icon.jpg" width="160" height="160" alt="SchFit Icon" style="border-radius: 36px;" />
+  <br />
+  <strong>The Sch Suite • Native Android Architecture</strong>
+</p>
+
 > **Part of The Sch Suite** — Android için geliştirilmiş; çevrimdışı öncelikli (offline-first), Jetpack Compose ve Gemini AI destekli modern kişisel fitness, antrenman hacmi ve kilo takip uygulaması.
 >
 > *Native Android workout tracker, progressive overload logger, and physique progression vault powered by Jetpack Compose & Gemini AI.*
