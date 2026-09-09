@@ -1126,6 +1126,7 @@ fun ThemeSelectionItem(
                     modifier = Modifier.size(22.dp)
                 )
             }
+        }
     }
 }
 
