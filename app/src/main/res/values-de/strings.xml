@@ -1,0 +1,388 @@
+<resources>
+    <string name="app_name">SchFit</string>
+
+    <!-- General / Common Actions -->
+    <string name="save">Speichern</string>
+    <string name="saving">Wird gespeichert…</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="delete">Löschen</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="add">Hinzufügen</string>
+    <string name="back">Zurück</string>
+    <string name="done">Fertig</string>
+    <string name="close">Schließen</string>
+    <string name="confirm">Bestätigen</string>
+    <string name="search">Suchen…</string>
+    <string name="loading">Wird geladen…</string>
+    <string name="error">Ein Fehler ist aufgetreten</string>
+    <string name="success">Erfolgreich abgeschlossen</string>
+    <string name="retry">Erneut versuchen</string>
+    <string name="reset">Zurücksetzen</string>
+    <string name="warning">Warnung</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="kg">kg</string>
+    <string name="lbs">lbs</string>
+    <string name="reps">Wdh.</string>
+    <string name="sets">Sätze</string>
+    <string name="min">Min.</string>
+    <string name="sec">Sek.</string>
+    <string name="duration">Dauer</string>
+    <string name="date">Datum</string>
+    <string name="volume">Volumen</string>
+    <string name="today">Heute</string>
+    <string name="yesterday">Gestern</string>
+    <string name="custom">Benutzerdefiniert</string>
+    <string name="note">Notiz</string>
+    <string name="photo">Foto</string>
+    <string name="share">Teilen</string>
+    <string name="clear">Löschen</string>
+    <string name="move_up">Nach oben</string>
+    <string name="move_down">Nach unten</string>
+    <string name="remove">Entfernen</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Start</string>
+    <string name="nav_workouts">Workouts</string>
+    <string name="nav_progress">Fortschritt</string>
+    <string name="nav_exercise_library">Übungen</string>
+    <string name="nav_profile">Profil</string>
+    <string name="nav_settings">Einstellungen</string>
+
+    <!-- Muscle Groups -->
+    <string name="muscle_all">Alle</string>
+    <string name="muscle_chest">Brust</string>
+    <string name="muscle_back">Rücken</string>
+    <string name="muscle_legs">Beine</string>
+    <string name="muscle_shoulders">Schultern</string>
+    <string name="muscle_biceps">Bizeps</string>
+    <string name="muscle_triceps">Trizeps</string>
+    <string name="muscle_abs">Bauch &amp; Core</string>
+    <string name="muscle_cardio">Cardio</string>
+    <string name="muscle_full_body">Ganzkörper</string>
+
+    <!-- Home Screen -->
+    <string name="home_greeting">Hallo, %1$s 👋</string>
+    <string name="home_quote">Bereit, heute deine Ziele zu erreichen?</string>
+    <string name="home_daily_motivation">Tägliche Motivation</string>
+    <string name="home_streak_title">Trainings-Streak</string>
+    <string name="home_streak_days">%1$d Tage Aktiv</string>
+    <string name="home_streak_weeks">🔥 %1$d Wochen Streak</string>
+    <string name="home_month_workouts_count">Diesen Monat: %1$d Workouts</string>
+    <string name="home_weekly_summary">Wochenziel</string>
+    <string name="home_weekly_goal_progress">%1$d / %2$d Workouts</string>
+    <string name="home_total_workouts_completed">Abgeschlossen</string>
+    <string name="home_active_workout_ongoing">Laufendes Workout</string>
+    <string name="home_active_workout_desc">Du hast ein aktives Workout. Jederzeit fortsetzen.</string>
+    <string name="home_resume_workout">Workout Fortsetzen</string>
+    <string name="home_quick_actions">Schnellzugriff</string>
+    <string name="home_start_empty_workout">Freies Workout Starten</string>
+    <string name="home_start_empty_workout_desc">Ohne vordefinierten Trainingsplan starten</string>
+    <string name="home_my_routines">Meine Routinen</string>
+    <string name="home_log_weight">Gewicht Eintragen</string>
+    <string name="home_recent_activity">Letzte Aktivitäten</string>
+    <string name="home_no_recent_activity">Noch keine Workouts aufgezeichnet. Starte heute dein erstes Training!</string>
+    <string name="home_prs_achieved">Persönliche Rekorde (PR)</string>
+    <string name="home_view_all">Alle anzeigen</string>
+
+    <!-- Calendar -->
+    <string name="calendar_prev_month">Vorheriger Monat</string>
+    <string name="calendar_next_month">Nächster Monat</string>
+    <string name="calendar_day_workouts_done">%1$s: %2$d Workouts abgeschlossen! 💪</string>
+    <string name="calendar_today_no_workout">%1$s: Heute noch kein Training 🏋️</string>
+    <string name="calendar_future_day">%1$s: Zukünftiger Tag</string>
+    <string name="calendar_rest_day">%1$s: Ruhetag 🧘</string>
+
+    <!-- Weekly Goal Dialog -->
+    <string name="goal_dialog_title">Wochenziel Festlegen</string>
+    <string name="goal_dialog_msg">Wie viele Tage pro Woche möchtest du trainieren?</string>
+    <string name="goal_dialog_days_per_week">%1$d Tage / Woche</string>
+
+    <!-- Workouts Screen -->
+    <string name="workouts_title">Workouts</string>
+    <string name="workouts_my_routines">Meine Routinen</string>
+    <string name="workouts_create_routine">Erstelle Deine Erste Routine</string>
+    <string name="workouts_create_routine_title">Neue Routine</string>
+    <string name="workouts_edit_routine_title">Routine Bearbeiten</string>
+    <string name="workouts_routine_name">Name der Routine</string>
+    <string name="workouts_routine_name_hint">z. B. Brust &amp; Trizeps</string>
+    <string name="workouts_routine_desc">Beschreibung (Optional)</string>
+    <string name="workouts_routine_desc_hint">z. B. Fokus auf Grundübungen</string>
+    <string name="workouts_start_routine">Workout Starten</string>
+    <string name="workouts_no_routines">Noch keine Trainingsroutinen erstellt.</string>
+    <string name="workouts_delete_confirm_title">Routine Löschen</string>
+    <string name="workouts_delete_confirm_msg">Möchtest du \"%1$s\" wirklich löschen?</string>
+    <string name="workouts_history_tab">Verlauf</string>
+    <string name="workouts_no_history">Noch keine abgeschlossenen Workouts vorhanden.</string>
+    <string name="workouts_no_history_desc">Wenn du ein Training beendest, erscheint es hier.</string>
+    <string name="workouts_exercises_count">%1$d Übungen</string>
+    <string name="workouts_exercises_selected_count">%1$d Übungen ausgewählt</string>
+    <string name="workouts_added_exercises_title">📋 Hinzugefügte Übungen (%1$d)</string>
+    <string name="workouts_add_exercises_hint">Wähle Übungen aus der Bibliothek aus.</string>
+    <string name="workouts_performed_exercises">Ausgeführte Übungen &amp; Sätze:</string>
+
+    <!-- Active Workout Screen -->
+    <string name="active_workout_title">Aktives Workout</string>
+    <string name="active_workout_finish_button">Beenden</string>
+    <string name="active_workout_cancel_button">Workout Verwerfen</string>
+    <string name="active_workout_finish_dialog_title">Workout Beenden</string>
+    <string name="active_workout_finish_dialog_msg">Möchtest du dieses Workout abschließen und speichern?</string>
+    <string name="active_workout_cancel_dialog_title">Workout Verlassen</string>
+    <string name="active_workout_cancel_dialog_msg">Du kannst das Training im Hintergrund weiterlaufen lassen oder komplett abbrechen.</string>
+    <string name="active_workout_add_exercise">+ Übung Hinzufügen</string>
+    <string name="active_workout_set_header">SATZ</string>
+    <string name="active_workout_previous_header">VORHER</string>
+    <string name="active_workout_kg_header">KG</string>
+    <string name="active_workout_reps_header">WDH</string>
+    <string name="active_workout_add_set">+ Satz Hinzufügen</string>
+    <string name="active_workout_first_time">Erstes Mal bei dieser Übung</string>
+    <string name="active_workout_enter_set_data">Daten für Satz %1$d eingeben</string>
+    <string name="active_workout_weight_label">Gewicht (kg)</string>
+    <string name="active_workout_reps_label">Wiederholungen</string>
+    <string name="active_workout_reps_unit">Wdh.</string>
+    <string name="active_workout_complete_set">Satz Abschließen</string>
+    <string name="active_workout_set_completed_title">Satz %1$d Abgeschlossen!</string>
+    <string name="active_workout_rest_timer">Pausenzeit</string>
+    <string name="active_workout_rest_timer_skip">Pause Überspringen</string>
+    <string name="active_workout_whats_next">Was kommt als Nächstes?</string>
+    <string name="active_workout_all_sets_done">Alle Sätze erledigt! Du kannst das Workout nun beenden.</string>
+    <string name="active_workout_completed_sets_title">Abgeschlossene Sätze für diese Übung</string>
+    <string name="active_workout_achievement_unlocked">ERFOLG FREIGESCHALTET! 🏆</string>
+    <string name="active_workout_new_peak">+%1$.1f kg Neuer Rekord! (Vorher: %2$.1f kg)</string>
+    <string name="active_workout_set_type_normal">Normaler Satz</string>
+    <string name="active_workout_set_type_warmup">Aufwärmsatz</string>
+    <string name="active_workout_set_type_drop">Drop-Satz</string>
+    <string name="active_workout_set_type_failure">Bis zum Muskelversagen</string>
+    <string name="active_workout_new_pr_unlocked">🔥 Neuer PR Erreicht!</string>
+    <string name="active_workout_empty_sets_warning">Bitte schließe mindestens einen Satz ab, bevor du beendest.</string>
+
+    <!-- Workout Summary Screen -->
+    <string name="workout_summary_title">Workout-Zusammenfassung</string>
+    <string name="workout_summary_hold_original">Gedrückt halten: Original</string>
+    <string name="workout_summary_crop">Zuschneiden</string>
+    <string name="workout_summary_tap_to_add_photo">Tippen, um Foto hinzuzufügen</string>
+    <string name="workout_summary_original_badge">📷 ORIGINAL</string>
+    <string name="workout_summary_daily_workout">Tages-Workout</string>
+    <string name="workout_summary_total_volume">GESAMTVOLUMEN</string>
+    <string name="workout_summary_duration">DAUER</string>
+    <string name="workout_summary_total_sets">SÄTZE</string>
+    <string name="workout_summary_sets">SÄTZE</string>
+    <string name="workout_summary_new_prs">Neue persönliche Rekorde (%1$d)</string>
+    <string name="workout_summary_prs_title">Persönliche Rekorde (%1$d)</string>
+    <string name="workout_summary_great_job">Starke Leistung! Du hast ein weiteres Workout gemeistert.</string>
+    <string name="workout_summary_good_job">Starke Leistung! Du hast ein weiteres Workout gemeistert.</string>
+    <string name="workout_summary_completed_exercises">Abgeschlossene Übungen</string>
+    <string name="workout_summary_return_home">Zur Startseite</string>
+    <string name="workout_summary_share">📸 Zusammenfassung &amp; Story-Karte</string>
+    <string name="workout_summary_photo_desc">Foto &amp; Übersicht</string>
+    <string name="workout_summary_default_name">Tages-Workout</string>
+    <string name="workout_summary_photo_btn">Foto Hinzufügen</string>
+    <string name="workout_summary_save_btn">Speichern &amp; Teilen</string>
+    <string name="ton">Tonnen</string>
+    <string name="total_volume">Gesamtvolumen</string>
+    <string name="total_workouts">Workouts Gesamt</string>
+
+    <!-- Workout Volume Screen -->
+    <string name="workout_volume_title">Trainingsvolumen</string>
+    <string name="workout_volume_history_title">Trainingsverlauf</string>
+    <string name="workout_volume_history_desc">%1$d Workouts • Details ansehen &amp; verwalten</string>
+    <string name="workout_volume_chart_title">Volumenverlauf</string>
+    <string name="workout_volume_last_n_workouts">Letzte %1$d Workouts</string>
+    <string name="workout_volume_no_chart_data">Sobald du Workouts absolvierst, erscheint hier deine Volumenkurve.</string>
+
+    <!-- Weight & Progress Tracking -->
+    <string name="weight_tracking_title">Gewichtstracking</string>
+    <string name="weight_tracking_add_title">Neues Gewicht Eintragen</string>
+    <string name="weight_tracking_set_target_btn">+ Ziel Setzen</string>
+    <string name="weight_tracking_new_entry_title">Neues Gewicht Eintragen</string>
+    <string name="weight_tracking_entry_hint">z. B. 74.5</string>
+    <string name="weight_tracking_history_title">Gewichtsverlauf</string>
+    <string name="weight_tracking_history_desc">%1$d Einträge • Messungen einsehen &amp; verwalten</string>
+    <string name="weight_tracking_delete_title">Gewichtseintrag Löschen</string>
+    <string name="weight_tracking_delete_msg">Möchtest du den Eintrag von %1$s kg am %2$s wirklich löschen?</string>
+    <string name="weight_tracking_chart_title">Gewichtsverlauf-Diagramm</string>
+    <string name="weight_tracking_target_label">Ziel: %1$s kg</string>
+    <string name="weight_tracking_initial_label">Start</string>
+    <string name="weight_tracking_current_label">Aktuell</string>
+    <string name="weight_tracking_change_label">Veränderung</string>
+    <string name="weight_tracking_remaining_goal_label">Bis zum Ziel</string>
+    <string name="weight_tracking_no_chart_data">Sobald du dein Gewicht einträgst, entsteht hier dein Verlaufsdiagramm.</string>
+    <string name="weight_tracking_set_target_dialog_title">Zielgewicht Festlegen</string>
+    <string name="weight_tracking_set_target_dialog_desc">Gib dein Wunschgewicht ein, um deinen Fortschritt im Auge zu behalten.</string>
+    <string name="weight_tracking_target_weight_input_label">Zielgewicht (kg)</string>
+    <string name="weight_tracking_remove_target_btn">Ziel Entfernen</string>
+    <string name="weight_tracking_no_history">Noch keine Gewichtsmessungen vorhanden.</string>
+    <string name="weight_stat_start">Start</string>
+    <string name="weight_stat_current">Aktuell</string>
+    <string name="weight_stat_diff">Differenz</string>
+    <string name="weight_stat_remaining">Verbleibend</string>
+    <string name="progress_title">Körpergewicht &amp; Fortschritt</string>
+    <string name="progress_current_weight">Aktuelles Gewicht</string>
+    <string name="progress_target_weight">Zielgewicht</string>
+    <string name="progress_weight_change">Gesamtveränderung</string>
+    <string name="progress_bmi">Body-Mass-Index (BMI)</string>
+    <string name="progress_log_new_weight">+ Gewicht Eintragen</string>
+    <string name="progress_log_dialog_title">Gewicht Protokollieren</string>
+    <string name="progress_target_dialog_title">Zielgewicht Festlegen</string>
+    <string name="progress_weight_hint">z. B. 78.5</string>
+    <string name="progress_weight_chart_title">Gewichtsdiagramm</string>
+    <string name="progress_history_title">Gewichtsverlauf</string>
+    <string name="progress_no_logs">Noch keine Gewichtseinträge.</string>
+    <string name="progress_volume_chart_title">Volumenverlauf</string>
+
+    <!-- Exercise Library -->
+    <string name="exercise_lib_title">Übungsbibliothek</string>
+    <string name="exercise_lib_search_hint">Übung oder Muskelgruppe suchen…</string>
+    <string name="exercise_lib_create_custom">Neue Übung</string>
+    <string name="exercise_lib_new_exercise_btn">+ Neue Übung</string>
+    <string name="exercise_lib_no_match">Keine passenden Übungen gefunden.</string>
+    <string name="exercise_lib_add_with_name">Übung mit diesem Namen hinzufügen</string>
+    <string name="exercise_lib_add_with_name_btn">\'%1$s\' Hinzufügen</string>
+    <string name="exercise_lib_exercises_suffix">Übungen</string>
+    <string name="exercise_lib_exercise_count_suffix">Übungen</string>
+    <string name="exercise_lib_delete_title">Übung Löschen</string>
+    <string name="exercise_lib_delete_msg">Möchtest du die Übung \'%1$s\' wirklich löschen? Bestehende Workout-Einträge bleiben erhalten.</string>
+    <string name="exercise_lib_progress_pr">Fortschritt &amp; PR</string>
+    <string name="exercise_lib_progress_pr_label">Fortschritt &amp; PR</string>
+    <string name="exercise_lib_custom_badge">Eigene</string>
+    <string name="exercise_lib_create_title">Eigene Übung Erstellen</string>
+    <string name="exercise_lib_add_dialog_title">Neue Übung Hinzufügen</string>
+    <string name="exercise_lib_edit_dialog_title">Übung Bearbeiten</string>
+    <string name="exercise_lib_exercise_name_hint">Übungsname (z. B. Schrägbankdrücken)</string>
+    <string name="exercise_lib_name_label">Übungsname</string>
+    <string name="exercise_lib_muscle_label">Muskelgruppe</string>
+    <string name="exercise_lib_select_muscle_group">Muskelgruppe auswählen:</string>
+    <string name="exercise_lib_notes_label">Notizen (Optional)</string>
+    <string name="exercise_lib_notes_hint">z. B. Sitzeinstellung 4, Rücken gerade halten…</string>
+    <string name="exercise_lib_pr_highest">PR (Höchstgewicht)</string>
+    <string name="exercise_lib_estimated_1rm">Geschätztes 1RM</string>
+    <string name="exercise_lib_epley_formula">Epley-Formel</string>
+    <string name="exercise_lib_max_weight_chart">Maximalgewicht-Verlauf</string>
+    <string name="exercise_lib_workout_count_suffix">Workouts</string>
+    <string name="exercise_lib_no_chart_data">Noch keine abgeschlossenen Sätze für diese Übung vorhanden.\nTrainiere, um dein Diagramm zu sehen.</string>
+    <string name="exercise_lib_history_and_sets">Trainingsverlauf &amp; Sätze:</string>
+    <string name="exercise_lib_highest_label">Höchster</string>
+    <string name="exercise_lib_no_exercises">Keine Übungen für diesen Filter gefunden.</string>
+    <string name="exercise_added">Hinzugefügt</string>
+    <string name="exercise_add">Hinzufügen</string>
+    <string name="update">Aktualisieren</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">Mein Profil &amp; Erfolge</string>
+    <string name="profile_member_since">🗓️ Mitglied seit %1$s</string>
+    <string name="profile_lifetime_stats">Lebenslange Statistiken</string>
+    <string name="profile_total_volume">Gesamtvolumen</string>
+    <string name="profile_total_workouts">Workouts</string>
+    <string name="profile_total_time">Gesamtdauer</string>
+    <string name="profile_personal_records">🏆 Rekorde &amp; Bestleistungen</string>
+    <string name="profile_achievements">🎖️ Erfolge &amp; Abzeichen</string>
+    <string name="profile_total_volume_lifted">Gesamtes bewegtes Gewicht</string>
+    <string name="profile_body_metrics_and_goal">Körpermaße &amp; Ziele</string>
+    <string name="profile_height_label">Größe</string>
+    <string name="profile_weight_label">Aktuelles Gewicht</string>
+    <string name="profile_target_goal">Fitnessziel</string>
+    <string name="profile_weekly_target_label">Wochenziel</string>
+    <string name="profile_edit_info">Profilinformationen Bearbeiten</string>
+    <string name="profile_user_name_hint">Vollständiger Name / Spitzname</string>
+    <string name="profile_height_hint">Größe (cm)</string>
+    <string name="profile_records_broken">Gebrochene Rekorde</string>
+    <string name="profile_records_count">%1$d Rekorde</string>
+    <string name="profile_sessions_count">%1$d Einheiten</string>
+    <string name="profile_prs_showcase_title">Rekorde-Galerie (%1$d)</string>
+    <string name="profile_prs_empty">Wenn du trainierst, werden deine Bestleistungen hier präsentiert.</string>
+    <string name="profile_edit_dialog_title">Profil Bearbeiten</string>
+    <string name="profile_goal_hypertrophy">Muskelaufbau &amp; Hypertrophie</string>
+    <string name="profile_goal_fat_loss">Fettverbrennung &amp; Definition</string>
+    <string name="profile_goal_strength">Kraft &amp; Powerlifting</string>
+    <string name="profile_goal_general">Allgemeine Fitness &amp; Gesundheit</string>
+    <string name="profile_days_count">%1$d Tage</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Einstellungen &amp; Präferenzen</string>
+    <string name="settings_section_appearance">Erscheinungsbild &amp; Theme</string>
+    <string name="settings_theme_title">App-Design</string>
+    <string name="settings_theme_desc">Wähle Dunkel, Hell oder folge deinem System:</string>
+    <string name="settings_theme_system">Systemstandard</string>
+    <string name="settings_theme_system_desc">Passt sich automatisch an dein Gerät an</string>
+    <string name="settings_theme_dark">Dunkles Design</string>
+    <string name="settings_theme_dark_desc">Augenschonendes, modernes dunkles Design</string>
+    <string name="settings_theme_light">Helles Design</string>
+    <string name="settings_theme_light_desc">Klares, helles Design für den Tag</string>
+
+    <string name="settings_section_language">Sprache / Language</string>
+    <string name="settings_language_title">App-Sprache</string>
+    <string name="settings_language_desc">Wähle deine bevorzugte Anzeigesprache</string>
+    <string name="settings_language_system">Systemstandard (Gerätesprache)</string>
+    <string name="settings_language_tr">Türkçe</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_language_de">Deutsch</string>
+    <string name="settings_language_es">Español (Spanisch)</string>
+    <string name="settings_language_it">Italiano (Italienisch)</string>
+
+    <string name="settings_section_sound">Audio &amp; Benachrichtigungen</string>
+    <string name="settings_rest_sound_title">Timer-Endton</string>
+    <string name="settings_rest_sound_desc">Signalton nach Ablauf der Satzpause:</string>
+    <string name="settings_sound_beep">Klassischer Beep (Standard)</string>
+    <string name="settings_sound_beep_desc">Standardmäßiger kurzer Doppel-Signalton</string>
+    <string name="settings_sound_bell">Box-Gong / Glocke</string>
+    <string name="settings_sound_bell_desc">Motivierender Boxring-Gong</string>
+    <string name="settings_sound_chime">Digitaler Chime</string>
+    <string name="settings_sound_chime_desc">Sanfter und klarer Bestätigungston</string>
+    <string name="settings_sound_whistle">Trainer-Pfeife</string>
+    <string name="settings_sound_whistle_desc">Sportliche Trainer-Trillerpfeife</string>
+    <string name="settings_sound_silent">Lautlos</string>
+    <string name="settings_sound_silent_desc">Nur optischer Countdown und Vibration</string>
+    <string name="settings_vibration_title">Haptisches Feedback</string>
+    <string name="settings_vibration_desc">Vibration bei Satz- und Timer-Abschluss</string>
+
+    <string name="settings_section_experience">Workout-Erlebnis</string>
+    <string name="settings_keep_screen_on_title">Bildschirm Aktiv Halten</string>
+    <string name="settings_keep_screen_on_desc">Verhindert Standby während des Trainings</string>
+
+    <string name="settings_section_danger">Datenverwaltung</string>
+    <string name="settings_reset_data_title">App-Daten Zurücksetzen</string>
+    <string name="settings_reset_data_desc">Alle Workouts, Routinen und Gewichtsdaten löschen</string>
+    <string name="settings_reset_confirm_title">Alle Daten löschen?</string>
+    <string name="settings_reset_confirm_msg">Dadurch werden alle Trainingsprotokolle, Routinen und eigenen Übungen dauerhaft gelöscht. Dies kann nicht rückgängig gemacht werden.</string>
+    <string name="settings_reset_success">Daten wurden erfolgreich zurückgesetzt.</string>
+
+    <string name="settings_developer_title">Entwickleroptionen 🛠️</string>
+    <string name="settings_developer_desc">Testdaten erstellen, Datenbank-Status prüfen</string>
+
+    <!-- Notification Service -->
+    <string name="notif_channel_name">Trainings- &amp; Pausen-Benachrichtigungen</string>
+    <string name="notif_channel_desc">Benachrichtigungen für Satzpausen und aktive Trainings</string>
+    <string name="notif_rest_done_title">Pause beendet! ⏱️</string>
+    <string name="notif_rest_done_body">Zeit, den nächsten Satz zu rocken!</string>
+    <string name="notif_rest_done_set_ready">Du bist bereit für %1$s (Satz %2$d)! 💪</string>
+
+    <!-- Photo Cropper & Filter Presets -->
+    <string name="crop_title">Foto zuschneiden &amp; ausrichten</string>
+    <string name="crop_rotate">Drehen</string>
+    <string name="crop_hint">👆 Foto frei verschieben, vergrößern oder verkleinern</string>
+    <string name="crop_confirm">Zuschneiden &amp; Foto hinzufügen</string>
+    <string name="photo_load_failed">Foto konnte nicht geladen werden</string>
+
+    <string name="preset_original">Original</string>
+    <string name="preset_gemini_ai">Gemini AI</string>
+    <string name="preset_gym_pump">Gym Pump</string>
+    <string name="preset_moody_dark">Dramatisches Karbon</string>
+
+    <string name="ai_lighting_title">✨ KI-Licht- &amp; Tonoptimierung</string>
+    <string name="ai_lighting_analyzing">⚡ Gemini 1.5 Flash analysiert die Studiobeleuchtung…</string>
+    <string name="ai_lighting_auto_enhance">✨ Automatisch optimieren mit Gemini 1.5 Flash</string>
+    <string name="ai_lighting_success_toast">✨ Licht mit Gemini 1.5 Flash optimiert!</string>
+    <string name="ai_lighting_local_toast">Lokale smarte Licht-Engine angewendet! ✨</string>
+
+    <!-- Share & Story Card -->
+    <string name="share_card_new_prs">🏆 NEUE PERSÖNLICHE REKORDE (%1$d)</string>
+    <string name="share_card_great_session">Klasse Training! Alle Ziel-Sätze und Wiederholungen gemeistert.</string>
+    <string name="share_card_completed_exercises">ABGESCHLOSSENE ÜBUNGEN</string>
+    <string name="share_card_saved_gallery">Zusammenfassung in Galerie gespeichert! 📸</string>
+    <string name="share_card_save_error">Fehler beim Speichern des Bildes: %1$s</string>
+    <string name="share_card_share_error">Fehler beim Teilen des Bildes: %1$s</string>
+
+    <!-- Developer Mode -->
+    <string name="dev_mode_unlocked">Du bist jetzt Entwickler! 🚀 Profil-Manager aktiviert.</string>
+    <string name="dev_mode_already_active">Entwicklermodus ist bereits aktiv! 🛠️</string>
+</resources>

@@ -1,0 +1,388 @@
+<resources>
+    <string name="app_name">SchFit</string>
+
+    <!-- General / Common Actions -->
+    <string name="save">Kaydet</string>
+    <string name="saving">Kaydediliyor…</string>
+    <string name="cancel">İptal</string>
+    <string name="delete">Sil</string>
+    <string name="edit">Düzenle</string>
+    <string name="add">Ekle</string>
+    <string name="back">Geri</string>
+    <string name="done">Tamam</string>
+    <string name="close">Kapat</string>
+    <string name="confirm">Onayla</string>
+    <string name="search">Ara…</string>
+    <string name="loading">Yükleniyor…</string>
+    <string name="error">Bir hata oluştu</string>
+    <string name="success">İşlem başarıyla tamamlandı</string>
+    <string name="retry">Tekrar Dene</string>
+    <string name="reset">Sıfırla</string>
+    <string name="warning">Uyarı</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="kg">kg</string>
+    <string name="lbs">lbs</string>
+    <string name="reps">tekrar</string>
+    <string name="sets">set</string>
+    <string name="min">dk</string>
+    <string name="sec">sn</string>
+    <string name="duration">Süre</string>
+    <string name="date">Tarih</string>
+    <string name="volume">Hacim</string>
+    <string name="today">Bugün</string>
+    <string name="yesterday">Dün</string>
+    <string name="custom">Özel</string>
+    <string name="note">Not</string>
+    <string name="photo">Fotoğraf</string>
+    <string name="share">Paylaş</string>
+    <string name="clear">Temizle</string>
+    <string name="move_up">Yukarı</string>
+    <string name="move_down">Aşağı</string>
+    <string name="remove">Kaldır</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Ana Sayfa</string>
+    <string name="nav_workouts">Antrenman</string>
+    <string name="nav_progress">Gelişim</string>
+    <string name="nav_exercise_library">Kütüphane</string>
+    <string name="nav_profile">Profil</string>
+    <string name="nav_settings">Ayarlar</string>
+
+    <!-- Muscle Groups -->
+    <string name="muscle_all">Tümü</string>
+    <string name="muscle_chest">Göğüs</string>
+    <string name="muscle_back">Sırt</string>
+    <string name="muscle_legs">Bacak</string>
+    <string name="muscle_shoulders">Omuz</string>
+    <string name="muscle_biceps">Biceps</string>
+    <string name="muscle_triceps">Triceps</string>
+    <string name="muscle_abs">Karın &amp; Core</string>
+    <string name="muscle_cardio">Kardiyo</string>
+    <string name="muscle_full_body">Tüm Vücut</string>
+
+    <!-- Home Screen -->
+    <string name="home_greeting">Merhaba, %1$s 👋</string>
+    <string name="home_quote">Hedeflerine ulaşmaya hazır mısın?</string>
+    <string name="home_daily_motivation">Günün Motivasyonu</string>
+    <string name="home_streak_title">Antrenman Serisi</string>
+    <string name="home_streak_days">%1$d Gün Aktif</string>
+    <string name="home_streak_weeks">🔥 %1$d Haftalık Seri</string>
+    <string name="home_month_workouts_count">Bu ay %1$d antrenman</string>
+    <string name="home_weekly_summary">Haftalık Hedef</string>
+    <string name="home_weekly_goal_progress">%1$d / %2$d Antrenman</string>
+    <string name="home_total_workouts_completed">Tamamlanan</string>
+    <string name="home_active_workout_ongoing">Devam Eden Antrenman</string>
+    <string name="home_active_workout_desc">Şu anda devam eden bir antrenman seansınız var.</string>
+    <string name="home_resume_workout">Antrenmana Devam Et</string>
+    <string name="home_quick_actions">Hızlı İşlemler</string>
+    <string name="home_start_empty_workout">Serbest Antrenman Başlat</string>
+    <string name="home_start_empty_workout_desc">Herhangi bir program seçmeden hemen başla</string>
+    <string name="home_my_routines">Programlarım</string>
+    <string name="home_log_weight">Kilo Kaydı Ekle</string>
+    <string name="home_recent_activity">Son Antrenmanlar</string>
+    <string name="home_no_recent_activity">Henüz tamamlanan antrenman kaydı yok. İlk seansını başlat!</string>
+    <string name="home_prs_achieved">Kişisel Rekorlar (PR)</string>
+    <string name="home_view_all">Tümünü Gör</string>
+
+    <!-- Calendar -->
+    <string name="calendar_prev_month">Önceki Ay</string>
+    <string name="calendar_next_month">Sonraki Ay</string>
+    <string name="calendar_day_workouts_done">%1$s: %2$d antrenman tamamlandı! 💪</string>
+    <string name="calendar_today_no_workout">%1$s: Bugün henüz antrenman yapılmadı 🏋️</string>
+    <string name="calendar_future_day">%1$s: Gelecek gün</string>
+    <string name="calendar_rest_day">%1$s: Dinlenme günü 🧘</string>
+
+    <!-- Weekly Goal Dialog -->
+    <string name="goal_dialog_title">Haftalık Hedef Belirle</string>
+    <string name="goal_dialog_msg">Haftada kaç gün antrenman yapmayı hedefliyorsun?</string>
+    <string name="goal_dialog_days_per_week">%1$d Gün / Hafta</string>
+
+    <!-- Workouts Screen -->
+    <string name="workouts_title">Antrenmanlar</string>
+    <string name="workouts_my_routines">Programlarım</string>
+    <string name="workouts_create_routine">İlk Programını Oluştur</string>
+    <string name="workouts_create_routine_title">Yeni Program Oluştur</string>
+    <string name="workouts_edit_routine_title">Programı Düzenle</string>
+    <string name="workouts_routine_name">Program Adı</string>
+    <string name="workouts_routine_name_hint">Program Adı (örn: Göğüs &amp; Triceps)</string>
+    <string name="workouts_routine_desc">Açıklama (İsteğe Bağlı)</string>
+    <string name="workouts_routine_desc_hint">örn: Bileşik hareketler odaklı hacim günü</string>
+    <string name="workouts_start_routine">Antrenmanı Başlat</string>
+    <string name="workouts_no_routines">Henüz oluşturulmuş bir antrenman programı yok.</string>
+    <string name="workouts_delete_confirm_title">Programı Sil</string>
+    <string name="workouts_delete_confirm_msg">\"%1$s\" programını silmek istediğinize emin misiniz?</string>
+    <string name="workouts_history_tab">Geçmiş</string>
+    <string name="workouts_no_history">Henüz tamamlanmış bir antrenman kaydı yok.</string>
+    <string name="workouts_no_history_desc">Antrenman başlattığında ve bitirdiğinde tüm kayıtlar burada listelenir.</string>
+    <string name="workouts_exercises_count">%1$d Hareket</string>
+    <string name="workouts_exercises_selected_count">%1$d Hareket Seçildi</string>
+    <string name="workouts_added_exercises_title">📋 Eklenen Hareketler (%1$d)</string>
+    <string name="workouts_add_exercises_hint">Aşağıdaki hareket kütüphanesinden dilediğiniz egzersizleri seçip ekleyin.</string>
+    <string name="workouts_performed_exercises">Yapılan Hareketler &amp; Setler:</string>
+
+    <!-- Active Workout Screen -->
+    <string name="active_workout_title">Aktif Antrenman</string>
+    <string name="active_workout_finish_button">Bitir</string>
+    <string name="active_workout_cancel_button">Antrenmanı İptal Et</string>
+    <string name="active_workout_finish_dialog_title">Antrenmanı Bitir</string>
+    <string name="active_workout_finish_dialog_msg">Harika bir seanstı! Antrenmanı kaydedip özet kartını görmek istiyor musunuz?</string>
+    <string name="active_workout_cancel_dialog_title">Antrenmandan Çıkış</string>
+    <string name="active_workout_cancel_dialog_msg">Antrenmanı arka planda bırakıp daha sonra ana sayfadan devam edebilir veya tamamen iptal edebilirsiniz.</string>
+    <string name="active_workout_add_exercise">+ Hareket Ekle</string>
+    <string name="active_workout_set_header">SET</string>
+    <string name="active_workout_previous_header">ÖNCEKİ</string>
+    <string name="active_workout_kg_header">KG</string>
+    <string name="active_workout_reps_header">TEKRAR</string>
+    <string name="active_workout_add_set">+ Set Ekle</string>
+    <string name="active_workout_first_time">İlk kez yapılıyor</string>
+    <string name="active_workout_enter_set_data">Set %1$d Verilerini Gir</string>
+    <string name="active_workout_weight_label">Ağırlık (kg)</string>
+    <string name="active_workout_reps_label">Tekrar Sayısı</string>
+    <string name="active_workout_reps_unit">tekrar</string>
+    <string name="active_workout_complete_set">Seti Tamamla</string>
+    <string name="active_workout_set_completed_title">Set %1$d Tamamlandı!</string>
+    <string name="active_workout_rest_timer">Dinlenme Süresi</string>
+    <string name="active_workout_rest_timer_skip">Süreyi Atla</string>
+    <string name="active_workout_whats_next">Sırada Ne Var?</string>
+    <string name="active_workout_all_sets_done">Tüm setler tamamlandı! Antrenmanı bitirebilirsin.</string>
+    <string name="active_workout_completed_sets_title">Bu Egzersizde Tamamlanan Setler</string>
+    <string name="active_workout_achievement_unlocked">BAŞARIM KAZANILDI! 🏆</string>
+    <string name="active_workout_new_peak">+%1$.1f kg Yeni Zirve! (Önceki: %2$.1f kg)</string>
+    <string name="active_workout_set_type_normal">Normal Set</string>
+    <string name="active_workout_set_type_warmup">Isınma Seti</string>
+    <string name="active_workout_set_type_drop">Drop Set</string>
+    <string name="active_workout_set_type_failure">Tükeniş Seti</string>
+    <string name="active_workout_new_pr_unlocked">🔥 Yeni Kişisel Rekor (PR)!</string>
+    <string name="active_workout_empty_sets_warning">Lütfen bitirmeden önce en az bir seti tamamlayın.</string>
+
+    <!-- Workout Summary Screen -->
+    <string name="workout_summary_title">Antrenman Özeti</string>
+    <string name="workout_summary_hold_original">Basılı Tut: Orijinal</string>
+    <string name="workout_summary_crop">Kırp</string>
+    <string name="workout_summary_tap_to_add_photo">Fotoğraf Eklemek İçin Dokun</string>
+    <string name="workout_summary_original_badge">📷 ORİJİNAL</string>
+    <string name="workout_summary_daily_workout">Günün Antrenmanı</string>
+    <string name="workout_summary_total_volume">TOPLAM HACİM</string>
+    <string name="workout_summary_duration">SÜRE</string>
+    <string name="workout_summary_total_sets">SET</string>
+    <string name="workout_summary_sets">SET</string>
+    <string name="workout_summary_new_prs">Yeni Kişisel Rekorlar (%1$d)</string>
+    <string name="workout_summary_prs_title">Yeni Kişisel Rekorlar (%1$d)</string>
+    <string name="workout_summary_great_job">Harika iş! Bir antrenmanı daha başarıyla tamamladın.</string>
+    <string name="workout_summary_good_job">Harika iş! Bir antrenmanı daha başarıyla tamamladın.</string>
+    <string name="workout_summary_completed_exercises">Tamamlanan Egzersizler</string>
+    <string name="workout_summary_return_home">Ana Ekrana Dön</string>
+    <string name="workout_summary_share">📸 Antrenman Özeti &amp; Paylaşım Kartı</string>
+    <string name="workout_summary_photo_desc">Fotoğraf &amp; Özet</string>
+    <string name="workout_summary_default_name">Günün Antrenmanı</string>
+    <string name="workout_summary_photo_btn">Fotoğraf Ekle</string>
+    <string name="workout_summary_save_btn">Kaydet &amp; Paylaş</string>
+    <string name="ton">Ton</string>
+    <string name="total_volume">Toplam Hacim</string>
+    <string name="total_workouts">Toplam Antrenman</string>
+
+    <!-- Workout Volume Screen -->
+    <string name="workout_volume_title">Antrenman Hacmi</string>
+    <string name="workout_volume_history_title">Antrenman Geçmişi</string>
+    <string name="workout_volume_history_desc">%1$d Antrenman • Detayları incele &amp; yönet</string>
+    <string name="workout_volume_chart_title">Antrenman Hacim Grafiği</string>
+    <string name="workout_volume_last_n_workouts">Son %1$d Antrenman</string>
+    <string name="workout_volume_no_chart_data">Antrenman yaptıkça hacim grafiğiniz burada oluşacaktır.</string>
+
+    <!-- Weight & Progress Tracking -->
+    <string name="weight_tracking_title">Kilo Takibi</string>
+    <string name="weight_tracking_add_title">Yeni Kilo Kaydı Ekle</string>
+    <string name="weight_tracking_set_target_btn">+ Hedef Belirle</string>
+    <string name="weight_tracking_new_entry_title">Yeni Kilo Kaydı Ekle</string>
+    <string name="weight_tracking_entry_hint">Örn: 74.5 veya 74,5</string>
+    <string name="weight_tracking_history_title">Kilo Ölçüm Geçmişi</string>
+    <string name="weight_tracking_history_desc">%1$d Kayıt • Geçmiş ölçümleri incele &amp; yönet</string>
+    <string name="weight_tracking_delete_title">Kilo Kaydını Sil</string>
+    <string name="weight_tracking_delete_msg">%1$s kg (%2$s) ölçüm kaydını silmek istediğinize emin misiniz?</string>
+    <string name="weight_tracking_chart_title">Kilo Gelişim Grafiği</string>
+    <string name="weight_tracking_target_label">Hedef: %1$s kg</string>
+    <string name="weight_tracking_initial_label">Başlangıç</string>
+    <string name="weight_tracking_current_label">Güncel</string>
+    <string name="weight_tracking_change_label">Değişim</string>
+    <string name="weight_tracking_remaining_goal_label">Hedefe Kalan</string>
+    <string name="weight_tracking_no_chart_data">Kilo kaydı ekledikçe gelişim grafiğiniz burada oluşacaktır.</string>
+    <string name="weight_tracking_set_target_dialog_title">Hedef Kilo Belirle</string>
+    <string name="weight_tracking_set_target_dialog_desc">Ulaşmak istediğin hedef kilonu gir. Grafikte ve ana sayfada hedefine ne kadar kaldığını takip edebilirsin.</string>
+    <string name="weight_tracking_target_weight_input_label">Hedef Kilo (kg)</string>
+    <string name="weight_tracking_remove_target_btn">Hedefi Kaldır</string>
+    <string name="weight_tracking_no_history">Henüz kayıtlı bir kilo ölçümü yok.</string>
+    <string name="weight_stat_start">Başlangıç</string>
+    <string name="weight_stat_current">Güncel</string>
+    <string name="weight_stat_diff">Değişim</string>
+    <string name="weight_stat_remaining">Hedefe Kalan</string>
+    <string name="progress_title">Vücut Ağırlığı &amp; Gelişim</string>
+    <string name="progress_current_weight">Mevcut Kilo</string>
+    <string name="progress_target_weight">Hedef Kilo</string>
+    <string name="progress_weight_change">Toplam Değişim</string>
+    <string name="progress_bmi">Vücut Kitle Endeksi (BMI)</string>
+    <string name="progress_log_new_weight">+ Kilo Kaydet</string>
+    <string name="progress_log_dialog_title">Kilo Kaydı Ekle</string>
+    <string name="progress_target_dialog_title">Hedef Kilo Belirle</string>
+    <string name="progress_weight_hint">örn: 78.5</string>
+    <string name="progress_weight_chart_title">Kilo Değişim Grafiği</string>
+    <string name="progress_history_title">Kilo Geçmişi</string>
+    <string name="progress_no_logs">Henüz kilo kaydı bulunamadı.</string>
+    <string name="progress_volume_chart_title">Antrenman Hacmi Değişimi</string>
+
+    <!-- Exercise Library -->
+    <string name="exercise_lib_title">Egzersiz Kütüphanesi</string>
+    <string name="exercise_lib_search_hint">Hareket veya bölge ara…</string>
+    <string name="exercise_lib_create_custom">Yeni Hareket</string>
+    <string name="exercise_lib_new_exercise_btn">+ Yeni Hareket</string>
+    <string name="exercise_lib_no_match">Aramanıza veya seçtiğiniz kategoriye uygun egzersiz bulunamadı.</string>
+    <string name="exercise_lib_add_with_name">Bu İsimle Hareket Ekle</string>
+    <string name="exercise_lib_add_with_name_btn">\'%1$s\' Ekle</string>
+    <string name="exercise_lib_exercises_suffix">hareket</string>
+    <string name="exercise_lib_exercise_count_suffix">hareket</string>
+    <string name="exercise_lib_delete_title">Özel Hareketi Sil</string>
+    <string name="exercise_lib_delete_msg">\'%1$s\' hareketini silmek istediğinize emin misiniz? Geçmiş antrenman kayıtları korunur.</string>
+    <string name="exercise_lib_progress_pr">Gelişim &amp; PR</string>
+    <string name="exercise_lib_progress_pr_label">Gelişim &amp; PR</string>
+    <string name="exercise_lib_custom_badge">Özel</string>
+    <string name="exercise_lib_create_title">Özel Egzersiz Ekle</string>
+    <string name="exercise_lib_add_dialog_title">Yeni Hareket Ekle</string>
+    <string name="exercise_lib_edit_dialog_title">Hareketi Düzenle</string>
+    <string name="exercise_lib_exercise_name_hint">Hareket Adı (Örn: Incline Bench Press)</string>
+    <string name="exercise_lib_name_label">Hareket Adı</string>
+    <string name="exercise_lib_muscle_label">Hedef Kas Grubu</string>
+    <string name="exercise_lib_select_muscle_group">Bölge Seç:</string>
+    <string name="exercise_lib_notes_label">Notlar (İsteğe Bağlı)</string>
+    <string name="exercise_lib_notes_hint">Örn: Koltuk ayarı 4, sırtı yasla…</string>
+    <string name="exercise_lib_pr_highest">PR (En Yüksek)</string>
+    <string name="exercise_lib_estimated_1rm">Tahmini 1RM</string>
+    <string name="exercise_lib_epley_formula">Epley Formülü</string>
+    <string name="exercise_lib_max_weight_chart">Maksimum Ağırlık Grafiği</string>
+    <string name="exercise_lib_workout_count_suffix">Antrenman</string>
+    <string name="exercise_lib_no_chart_data">Bu hareket için henüz tamamlanmış set kaydı bulunmuyor.\nAntrenman yaptıkça ağırlık grafiğiniz burada oluşacaktır.</string>
+    <string name="exercise_lib_history_and_sets">Antrenman Geçmişi &amp; Setler:</string>
+    <string name="exercise_lib_highest_label">En Yüksek</string>
+    <string name="exercise_lib_no_exercises">Filtrenize uygun hareket bulunamadı.</string>
+    <string name="exercise_added">Eklendi</string>
+    <string name="exercise_add">Ekle</string>
+    <string name="update">Güncelle</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">Profilim &amp; Başarımlar</string>
+    <string name="profile_member_since">🗓️ %1$s\'den beri üye</string>
+    <string name="profile_lifetime_stats">Ömür Boyu İstatistikler</string>
+    <string name="profile_total_volume">Toplam Hacim</string>
+    <string name="profile_total_workouts">Antrenman</string>
+    <string name="profile_total_time">Toplam Süre</string>
+    <string name="profile_personal_records">🏆 Kişisel Rekorlar Vitrini</string>
+    <string name="profile_achievements">🎖️ Başarımlar &amp; Rozetler</string>
+    <string name="profile_total_volume_lifted">Ömür Boyu Hacim</string>
+    <string name="profile_body_metrics_and_goal">Vücut Ölçüleri &amp; Hedef</string>
+    <string name="profile_height_label">Boy</string>
+    <string name="profile_weight_label">Mevcut Kilo</string>
+    <string name="profile_target_goal">Fitness Hedefi</string>
+    <string name="profile_weekly_target_label">Haftalık Hedef</string>
+    <string name="profile_edit_info">Profil Bilgilerini Düzenle</string>
+    <string name="profile_user_name_hint">Ad Soyad / Kullanıcı Adı</string>
+    <string name="profile_height_hint">Boy (cm)</string>
+    <string name="profile_records_broken">Kırılan Rekorlar</string>
+    <string name="profile_records_count">%1$d Rekor</string>
+    <string name="profile_sessions_count">%1$d Seans</string>
+    <string name="profile_prs_showcase_title">Kişisel Rekorlar Vitrini (%1$d)</string>
+    <string name="profile_prs_empty">Antrenman yaptıkça hareketlerdeki en yüksek kilo rekorlarınız burada sergilenecektir.</string>
+    <string name="profile_edit_dialog_title">Profili Düzenle</string>
+    <string name="profile_goal_hypertrophy">Hipertrofi &amp; Kas Kazanımı</string>
+    <string name="profile_goal_fat_loss">Yağ Yakımı &amp; Definasyon</string>
+    <string name="profile_goal_strength">Güç &amp; Powerlifting</string>
+    <string name="profile_goal_general">Genel Kondisyon &amp; Sağlık</string>
+    <string name="profile_days_count">%1$d Gün</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Ayarlar &amp; Tercihler</string>
+    <string name="settings_section_appearance">Görünüm ve Tema</string>
+    <string name="settings_theme_title">Uygulama Teması</string>
+    <string name="settings_theme_desc">Karanlık, aydınlık veya sistem varsayılanını seçin:</string>
+    <string name="settings_theme_system">Sistem Varsayılanı</string>
+    <string name="settings_theme_system_desc">Cihazınızın sistem temasını otomatik olarak uygular</string>
+    <string name="settings_theme_dark">Karanlık Tema</string>
+    <string name="settings_theme_dark_desc">Gözü yormayan şık ve modern koyu tasarım</string>
+    <string name="settings_theme_light">Aydınlık Tema</string>
+    <string name="settings_theme_light_desc">Ferah ve parlak gündüz görünümü</string>
+
+    <string name="settings_section_language">Dil / Language</string>
+    <string name="settings_language_title">Uygulama Dili</string>
+    <string name="settings_language_desc">Tercih ettiğiniz görüntüleme dilini seçin</string>
+    <string name="settings_language_system">Sistem Varsayılanı (Cihaz Dili)</string>
+    <string name="settings_language_tr">Türkçe</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_language_de">Deutsch (Almanca)</string>
+    <string name="settings_language_es">Español (İspanyolca)</string>
+    <string name="settings_language_it">Italiano (İtalyanca)</string>
+
+    <string name="settings_section_sound">Ses ve Bildirimler</string>
+    <string name="settings_rest_sound_title">Dinlenme Sayacı Bitiş Sesi</string>
+    <string name="settings_rest_sound_desc">Dinlenme süresi sıfıra ulaştığında çalacak bildirim tonu:</string>
+    <string name="settings_sound_beep">Klasik Bip Sesi (Varsayılan)</string>
+    <string name="settings_sound_beep_desc">Standart çift tonlu kısa uyarı sesi</string>
+    <string name="settings_sound_bell">Boks Gongu / Zil</string>
+    <string name="settings_sound_bell_desc">Motive edici ring zil tonu</string>
+    <string name="settings_sound_chime">Dijital Melodi / Zil</string>
+    <string name="settings_sound_chime_desc">Yumuşak ve net onay sesi</string>
+    <string name="settings_sound_whistle">Antrenör Düdüğü</string>
+    <string name="settings_sound_whistle_desc">Yüksek frekanslı sporcu düdüğü</string>
+    <string name="settings_sound_silent">Sessiz</string>
+    <string name="settings_sound_silent_desc">Yalnızca görsel geri sayım ve titreşim</string>
+    <string name="settings_vibration_title">Dokunsal Titreşim</string>
+    <string name="settings_vibration_desc">Set tamamlandığında ve süre bittiğinde cihazı titret</string>
+
+    <string name="settings_section_experience">Antrenman Deneyimi</string>
+    <string name="settings_keep_screen_on_title">Ekranı Sürekli Açık Tut</string>
+    <string name="settings_keep_screen_on_desc">Aktif antrenman sırasında ekranın kararmasını engeller</string>
+
+    <string name="settings_section_danger">Veri Yönetimi</string>
+    <string name="settings_reset_data_title">Uygulama Verilerini Sıfırla</string>
+    <string name="settings_reset_data_desc">Tüm antrenman geçmişini, programları ve kilo kayıtlarını temizler</string>
+    <string name="settings_reset_confirm_title">Tüm Verileri Sıfırla?</string>
+    <string name="settings_reset_confirm_msg">Bu işlem profilinizdeki tüm antrenman geçmişini, kayıtlı programları ve özel hareketleri kalıcı olarak silecektir. Bu işlem geri alınamaz.</string>
+    <string name="settings_reset_success">Tüm veriler başarıyla sıfırlandı.</string>
+
+    <string name="settings_developer_title">Geliştirici Seçenekleri 🛠️</string>
+    <string name="settings_developer_desc">Test verisi yükleme ve veritabanı durumu</string>
+
+    <!-- Notification Service -->
+    <string name="notif_channel_name">Antrenman ve Dinlenme Bildirimleri</string>
+    <string name="notif_channel_desc">Set arası dinlenme süresi bittiğinde uyarı gönderir</string>
+    <string name="notif_rest_done_title">Dinlenme Süresi Bitti! ⏱️</string>
+    <string name="notif_rest_done_body">Sıradaki sette en iyisini yapma zamanı!</string>
+    <string name="notif_rest_done_set_ready">%1$s (Set %2$d) için hazırsın! 💪</string>
+
+    <!-- Photo Cropper & Filter Presets -->
+    <string name="crop_title">Fotoğrafı Kırp &amp; Hizala</string>
+    <string name="crop_rotate">Döndür</string>
+    <string name="crop_hint">👆 Fotoğrafı serbestçe sürükle, büyüt veya küçült</string>
+    <string name="crop_confirm">Kırp ve Fotoğrafı Ekle</string>
+    <string name="photo_load_failed">Fotoğraf yüklenemedi</string>
+
+    <string name="preset_original">Orijinal</string>
+    <string name="preset_gemini_ai">Gemini AI</string>
+    <string name="preset_gym_pump">Gym Pump</string>
+    <string name="preset_moody_dark">Dramatik Karbon</string>
+
+    <string name="ai_lighting_title">✨ AI Işık &amp; Ton İyileştirme</string>
+    <string name="ai_lighting_analyzing">⚡ Gemini 1.5 Flash salon ışığını analiz ediyor…</string>
+    <string name="ai_lighting_auto_enhance">✨ Gemini 1.5 Flash ile Otomatik İyileştir</string>
+    <string name="ai_lighting_success_toast">✨ Gemini 1.5 Flash ile ışık optimize edildi!</string>
+    <string name="ai_lighting_local_toast">Yerel akıllı ışık motoru uygulandı! ✨</string>
+
+    <!-- Share & Story Card -->
+    <string name="share_card_new_prs">🏆 YENİ KİŞİSEL REKORLAR (%1$d)</string>
+    <string name="share_card_great_session">Harika Seans! Hedeflenen tüm setler ve tekrarlar başarıyla tamamlandı.</string>
+    <string name="share_card_completed_exercises">TAMAMLANAN EGZERSİZLER</string>
+    <string name="share_card_saved_gallery">Özet görseli Galeri\'ye kaydedildi! 📸</string>
+    <string name="share_card_save_error">Kaydedilirken hata oluştu: %1$s</string>
+    <string name="share_card_share_error">Görsel paylaşılırken hata oluştu: %1$s</string>
+
+    <!-- Developer Mode -->
+    <string name="dev_mode_unlocked">Artık bir geliştiricisin! 🚀 Config seçici açıldı.</string>
+    <string name="dev_mode_already_active">Geliştirici modu zaten aktif! 🛠️</string>
+</resources>

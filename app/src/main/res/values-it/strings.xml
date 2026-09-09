@@ -1,0 +1,388 @@
+<resources>
+    <string name="app_name">SchFit</string>
+
+    <!-- General / Common Actions -->
+    <string name="save">Salva</string>
+    <string name="saving">Salvataggio…</string>
+    <string name="cancel">Annulla</string>
+    <string name="delete">Elimina</string>
+    <string name="edit">Modifica</string>
+    <string name="add">Aggiungi</string>
+    <string name="back">Indietro</string>
+    <string name="done">Fatto</string>
+    <string name="close">Chiudi</string>
+    <string name="confirm">Conferma</string>
+    <string name="search">Cerca…</string>
+    <string name="loading">Caricamento…</string>
+    <string name="error">Si è verificato un errore</string>
+    <string name="success">Operazione completata con successo</string>
+    <string name="retry">Riprova</string>
+    <string name="reset">Ripristina</string>
+    <string name="warning">Attenzione</string>
+    <string name="yes">Sì</string>
+    <string name="no">No</string>
+    <string name="kg">kg</string>
+    <string name="lbs">lbs</string>
+    <string name="reps">rip</string>
+    <string name="sets">serie</string>
+    <string name="min">min</string>
+    <string name="sec">sec</string>
+    <string name="duration">Durata</string>
+    <string name="date">Data</string>
+    <string name="volume">Volume</string>
+    <string name="today">Oggi</string>
+    <string name="yesterday">Ieri</string>
+    <string name="custom">Personalizzato</string>
+    <string name="note">Nota</string>
+    <string name="photo">Foto</string>
+    <string name="share">Condividi</string>
+    <string name="clear">Cancella</string>
+    <string name="move_up">Sposta su</string>
+    <string name="move_down">Sposta giù</string>
+    <string name="remove">Rimuovi</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_workouts">Allenamenti</string>
+    <string name="nav_progress">Progressi</string>
+    <string name="nav_exercise_library">Esercizi</string>
+    <string name="nav_profile">Profilo</string>
+    <string name="nav_settings">Impostazioni</string>
+
+    <!-- Muscle Groups -->
+    <string name="muscle_all">Tutti</string>
+    <string name="muscle_chest">Petto</string>
+    <string name="muscle_back">Dorso</string>
+    <string name="muscle_legs">Gambe</string>
+    <string name="muscle_shoulders">Spalle</string>
+    <string name="muscle_biceps">Bicipiti</string>
+    <string name="muscle_triceps">Tricipiti</string>
+    <string name="muscle_abs">Addome e Core</string>
+    <string name="muscle_cardio">Cardio</string>
+    <string name="muscle_full_body">Full Body</string>
+
+    <!-- Home Screen -->
+    <string name="home_greeting">Ciao, %1$s 👋</string>
+    <string name="home_quote">Pronto a superare i tuoi obiettivi oggi?</string>
+    <string name="home_daily_motivation">Motivazione Giornaliera</string>
+    <string name="home_streak_title">Serie di Allenamento</string>
+    <string name="home_streak_days">%1$d Giorni Attivi</string>
+    <string name="home_streak_weeks">🔥 Serie di %1$d Settimane</string>
+    <string name="home_month_workouts_count">Questo mese: %1$d allenamenti</string>
+    <string name="home_weekly_summary">Obiettivo Settimanale</string>
+    <string name="home_weekly_goal_progress">%1$d / %2$d Allenamenti</string>
+    <string name="home_total_workouts_completed">Completati</string>
+    <string name="home_active_workout_ongoing">Allenamento in Corso</string>
+    <string name="home_active_workout_desc">Hai una sessione attiva. Puoi riprenderla in qualsiasi momento.</string>
+    <string name="home_resume_workout">Riprendi Allenamento</string>
+    <string name="home_quick_actions">Azioni Rapide</string>
+    <string name="home_start_empty_workout">Allenamento Libero</string>
+    <string name="home_start_empty_workout_desc">Allenati senza una scheda preimpostata</string>
+    <string name="home_my_routines">Le Mie Schede</string>
+    <string name="home_log_weight">Registra Peso</string>
+    <string name="home_recent_activity">Allenamenti Recenti</string>
+    <string name="home_no_recent_activity">Nessun allenamento registrato. Inizia la tua prima sessione oggi!</string>
+    <string name="home_prs_achieved">Record Personali (PR)</string>
+    <string name="home_view_all">Mostra Tutto</string>
+
+    <!-- Calendar -->
+    <string name="calendar_prev_month">Mese Precedente</string>
+    <string name="calendar_next_month">Mese Successivo</string>
+    <string name="calendar_day_workouts_done">%1$s: %2$d allenamenti completati! 💪</string>
+    <string name="calendar_today_no_workout">%1$s: Nessun allenamento registrato oggi 🏋️</string>
+    <string name="calendar_future_day">%1$s: Giorno futuro</string>
+    <string name="calendar_rest_day">%1$s: Giorno di riposo 🧘</string>
+
+    <!-- Weekly Goal Dialog -->
+    <string name="goal_dialog_title">Imposta Obiettivo Settimanale</string>
+    <string name="goal_dialog_msg">Quanti giorni a settimana intendi allenarti?</string>
+    <string name="goal_dialog_days_per_week">%1$d Giorni / Settimana</string>
+
+    <!-- Workouts Screen -->
+    <string name="workouts_title">Allenamenti</string>
+    <string name="workouts_my_routines">Le Mie Schede</string>
+    <string name="workouts_create_routine">Crea la Tua Prima Scheda</string>
+    <string name="workouts_create_routine_title">Nuova Scheda</string>
+    <string name="workouts_edit_routine_title">Modifica Scheda</string>
+    <string name="workouts_routine_name">Nome Scheda</string>
+    <string name="workouts_routine_name_hint">es. Petto e Tricipiti</string>
+    <string name="workouts_routine_desc">Descrizione (Facoltativa)</string>
+    <string name="workouts_routine_desc_hint">es. Focus su esercizi fondamentali pesanti</string>
+    <string name="workouts_start_routine">Inizia Allenamento</string>
+    <string name="workouts_no_routines">Non hai ancora creato schede di allenamento.</string>
+    <string name="workouts_delete_confirm_title">Elimina Scheda</string>
+    <string name="workouts_delete_confirm_msg">Sei sicuro di voler eliminare \"%1$s\"?</string>
+    <string name="workouts_history_tab">Cronologia</string>
+    <string name="workouts_no_history">Nessun allenamento completato finora.</string>
+    <string name="workouts_no_history_desc">Quando inizi e completi un allenamento, apparirà qui.</string>
+    <string name="workouts_exercises_count">%1$d Esercizi</string>
+    <string name="workouts_exercises_selected_count">%1$d Esercizi Selezionati</string>
+    <string name="workouts_added_exercises_title">📋 Esercizi Aggiunti (%1$d)</string>
+    <string name="workouts_add_exercises_hint">Seleziona e aggiungi esercizi dalla libreria sottostante.</string>
+    <string name="workouts_performed_exercises">Esercizi e Serie Eseguiti:</string>
+
+    <!-- Active Workout Screen -->
+    <string name="active_workout_title">Allenamento Attivo</string>
+    <string name="active_workout_finish_button">Termina</string>
+    <string name="active_workout_cancel_button">Annulla Sessione</string>
+    <string name="active_workout_finish_dialog_title">Termina Allenamento</string>
+    <string name="active_workout_finish_dialog_msg">Vuoi concludere e salvare questa sessione di allenamento?</string>
+    <string name="active_workout_cancel_dialog_title">Esci dall\'Allenamento</string>
+    <string name="active_workout_cancel_dialog_msg">Puoi lasciare l\'allenamento attivo in background e riprenderlo quando vuoi dalla home, oppure scartarlo del tutto.</string>
+    <string name="active_workout_add_exercise">+ Aggiungi Esercizio</string>
+    <string name="active_workout_set_header">SERIE</string>
+    <string name="active_workout_previous_header">PRECEDENTE</string>
+    <string name="active_workout_kg_header">KG</string>
+    <string name="active_workout_reps_header">RIP</string>
+    <string name="active_workout_add_set">+ Aggiungi Serie</string>
+    <string name="active_workout_first_time">Prima volta che esegui questo esercizio</string>
+    <string name="active_workout_enter_set_data">Inserisci dati Serie %1$d</string>
+    <string name="active_workout_weight_label">Peso (kg)</string>
+    <string name="active_workout_reps_label">Numero Ripetizioni</string>
+    <string name="active_workout_reps_unit">rip</string>
+    <string name="active_workout_complete_set">Completa Serie</string>
+    <string name="active_workout_set_completed_title">Serie %1$d Completata!</string>
+    <string name="active_workout_rest_timer">Tempo di Recupero</string>
+    <string name="active_workout_rest_timer_skip">Salta Recupero</string>
+    <string name="active_workout_whats_next">Cosa segue?</string>
+    <string name="active_workout_all_sets_done">Tutte le serie completate! Ora puoi terminare l\'allenamento.</string>
+    <string name="active_workout_completed_sets_title">Serie completate per questo esercizio</string>
+    <string name="active_workout_achievement_unlocked">TRAGUARDO RAGGIUNTO! 🏆</string>
+    <string name="active_workout_new_peak">+%1$.1f kg Nuovo Massimo! (Precedente: %2$.1f kg)</string>
+    <string name="active_workout_set_type_normal">Serie Regolare</string>
+    <string name="active_workout_set_type_warmup">Serie di Riscaldamento</string>
+    <string name="active_workout_set_type_drop">Drop Set</string>
+    <string name="active_workout_set_type_failure">Serie a Cedimento</string>
+    <string name="active_workout_new_pr_unlocked">🔥 Nuovo Record Personale (PR)!</string>
+    <string name="active_workout_empty_sets_warning">Completa almeno una serie prima di terminare.</string>
+
+    <!-- Workout Summary Screen -->
+    <string name="workout_summary_title">Riepilogo Allenamento</string>
+    <string name="workout_summary_hold_original">Tieni premuto: Originale</string>
+    <string name="workout_summary_crop">Ritaglia</string>
+    <string name="workout_summary_tap_to_add_photo">Tocca per Aggiungere Foto</string>
+    <string name="workout_summary_original_badge">📷 ORIGINALE</string>
+    <string name="workout_summary_daily_workout">Allenamento del Giorno</string>
+    <string name="workout_summary_total_volume">VOLUME TOTALE</string>
+    <string name="workout_summary_duration">DURATA</string>
+    <string name="workout_summary_total_sets">SERIE</string>
+    <string name="workout_summary_sets">SERIE</string>
+    <string name="workout_summary_new_prs">Nuovi Record Personali (%1$d)</string>
+    <string name="workout_summary_prs_title">Record Personali (%1$d)</string>
+    <string name="workout_summary_great_job">Ottimo lavoro! Hai completato un altro allenamento con successo.</string>
+    <string name="workout_summary_good_job">Ottimo lavoro! Hai completato un altro allenamento con successo.</string>
+    <string name="workout_summary_completed_exercises">Esercizi Completati</string>
+    <string name="workout_summary_return_home">Torna alla Home</string>
+    <string name="workout_summary_share">📸 Riepilogo e Scheda per Storia</string>
+    <string name="workout_summary_photo_desc">Foto e Riepilogo</string>
+    <string name="workout_summary_default_name">Allenamento del Giorno</string>
+    <string name="workout_summary_photo_btn">Aggiungi Foto</string>
+    <string name="workout_summary_save_btn">Salva e Condividi</string>
+    <string name="ton">Tonnellate</string>
+    <string name="total_volume">Volume Totale</string>
+    <string name="total_workouts">Allenamenti Totali</string>
+
+    <!-- Workout Volume Screen -->
+    <string name="workout_volume_title">Volume di Allenamento</string>
+    <string name="workout_volume_history_title">Cronologia Allenamenti</string>
+    <string name="workout_volume_history_desc">%1$d Allenamenti • Visualizza e gestisci dettagli</string>
+    <string name="workout_volume_chart_title">Grafico del Volume</string>
+    <string name="workout_volume_last_n_workouts">Ultimi %1$d Allenamenti</string>
+    <string name="workout_volume_no_chart_data">Man mano che completi gli allenamenti, il grafico apparirà qui.</string>
+
+    <!-- Weight & Progress Tracking -->
+    <string name="weight_tracking_title">Monitoraggio Peso</string>
+    <string name="weight_tracking_add_title">Aggiungi Misurazione Peso</string>
+    <string name="weight_tracking_set_target_btn">+ Imposta Obiettivo</string>
+    <string name="weight_tracking_new_entry_title">Aggiungi Misurazione Peso</string>
+    <string name="weight_tracking_entry_hint">es. 74.5</string>
+    <string name="weight_tracking_history_title">Cronologia Peso</string>
+    <string name="weight_tracking_history_desc">%1$d Misurazioni • Visualizza e gestisci registrazioni</string>
+    <string name="weight_tracking_delete_title">Elimina Misurazione</string>
+    <string name="weight_tracking_delete_msg">Sei sicuro di voler eliminare la misurazione di %1$s kg del %2$s?</string>
+    <string name="weight_tracking_chart_title">Grafico di Progressione del Peso</string>
+    <string name="weight_tracking_target_label">Obiettivo: %1$s kg</string>
+    <string name="weight_tracking_initial_label">Iniziale</string>
+    <string name="weight_tracking_current_label">Attuale</string>
+    <string name="weight_tracking_change_label">Variazione</string>
+    <string name="weight_tracking_remaining_goal_label">All\'Obiettivo</string>
+    <string name="weight_tracking_no_chart_data">Man mano che registri il tuo peso, il tuo grafico apparirà qui.</string>
+    <string name="weight_tracking_set_target_dialog_title">Imposta Peso Obiettivo</string>
+    <string name="weight_tracking_set_target_dialog_desc">Inserisci il tuo peso desiderato per monitorare i tuoi progressi nel grafico e nella schermata iniziale.</string>
+    <string name="weight_tracking_target_weight_input_label">Peso Obiettivo (kg)</string>
+    <string name="weight_tracking_remove_target_btn">Rimuovi Obiettivo</string>
+    <string name="weight_tracking_no_history">Nessuna misurazione registrata.</string>
+    <string name="weight_stat_start">Iniziale</string>
+    <string name="weight_stat_current">Attuale</string>
+    <string name="weight_stat_diff">Variazione</string>
+    <string name="weight_stat_remaining">Rimanente</string>
+    <string name="progress_title">Peso Corporeo e Progressi</string>
+    <string name="progress_current_weight">Peso Attuale</string>
+    <string name="progress_target_weight">Peso Obiettivo</string>
+    <string name="progress_weight_change">Variazione Totale</string>
+    <string name="progress_bmi">Indice di Massa Corporea (IMC)</string>
+    <string name="progress_log_new_weight">+ Registra Peso</string>
+    <string name="progress_log_dialog_title">Registra Peso Corporeo</string>
+    <string name="progress_target_dialog_title">Imposta Peso Obiettivo</string>
+    <string name="progress_weight_hint">es. 78.5</string>
+    <string name="progress_weight_chart_title">Grafico Progressione Peso</string>
+    <string name="progress_history_title">Cronologia Peso</string>
+    <string name="progress_no_logs">Nessuna registrazione di peso finora.</string>
+    <string name="progress_volume_chart_title">Progressione del Volume</string>
+
+    <!-- Exercise Library -->
+    <string name="exercise_lib_title">Libreria Esercizi</string>
+    <string name="exercise_lib_search_hint">Cerca esercizio o gruppo muscolare…</string>
+    <string name="exercise_lib_create_custom">Nuovo Esercizio</string>
+    <string name="exercise_lib_new_exercise_btn">+ Nuovo Esercizio</string>
+    <string name="exercise_lib_no_match">Nessun esercizio trovato per la ricerca o categoria.</string>
+    <string name="exercise_lib_add_with_name">Aggiungi Esercizio con Questo Nome</string>
+    <string name="exercise_lib_add_with_name_btn">Aggiungi \'%1$s\'</string>
+    <string name="exercise_lib_exercises_suffix">esercizi</string>
+    <string name="exercise_lib_exercise_count_suffix">esercizi</string>
+    <string name="exercise_lib_delete_title">Elimina Esercizio Personalizzato</string>
+    <string name="exercise_lib_delete_msg">Sei sicuro di voler eliminare \'%1$s\'? I dati storici registrati non verranno toccati.</string>
+    <string name="exercise_lib_progress_pr">Progressi e PR</string>
+    <string name="exercise_lib_progress_pr_label">Progressi e PR</string>
+    <string name="exercise_lib_custom_badge">Proprio</string>
+    <string name="exercise_lib_create_title">Aggiungi Esercizio Personalizzato</string>
+    <string name="exercise_lib_add_dialog_title">Aggiungi Nuovo Esercizio</string>
+    <string name="exercise_lib_edit_dialog_title">Modifica Esercizio</string>
+    <string name="exercise_lib_exercise_name_hint">Nome dell\'Esercizio (es. Panca Inclinata)</string>
+    <string name="exercise_lib_name_label">Nome Esercizio</string>
+    <string name="exercise_lib_muscle_label">Gruppo Muscolare</string>
+    <string name="exercise_lib_select_muscle_group">Seleziona Gruppo Muscolare:</string>
+    <string name="exercise_lib_notes_label">Note (Facoltativo)</string>
+    <string name="exercise_lib_notes_hint">es. Impostazione sedile 4, mantenere la schiena salda…</string>
+    <string name="exercise_lib_pr_highest">PR (Massimo Peso)</string>
+    <string name="exercise_lib_estimated_1rm">1RM Stimato</string>
+    <string name="exercise_lib_epley_formula">Formula di Epley</string>
+    <string name="exercise_lib_max_weight_chart">Grafico Peso Massimo</string>
+    <string name="exercise_lib_workout_count_suffix">Allenamenti</string>
+    <string name="exercise_lib_no_chart_data">Nessuna serie completata per questo esercizio.\nAllenandoti, la progressione apparirà qui.</string>
+    <string name="exercise_lib_history_and_sets">Cronologia e Serie:</string>
+    <string name="exercise_lib_highest_label">Più Alto</string>
+    <string name="exercise_lib_no_exercises">Nessun esercizio trovato per questo filtro.</string>
+    <string name="exercise_added">Aggiunto</string>
+    <string name="exercise_add">Aggiungi</string>
+    <string name="update">Aggiorna</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">Mio Profilo e Traguardi</string>
+    <string name="profile_member_since">🗓️ Iscritto da %1$s</string>
+    <string name="profile_lifetime_stats">Statistiche Totali</string>
+    <string name="profile_total_volume">Volume Totale</string>
+    <string name="profile_total_workouts">Allenamenti</string>
+    <string name="profile_total_time">Durata Totale</string>
+    <string name="profile_personal_records">🏆 Galleria Record Personali</string>
+    <string name="profile_achievements">🎖️ Traguardi e Badge</string>
+    <string name="profile_total_volume_lifted">Volume Totale Sollevato</string>
+    <string name="profile_body_metrics_and_goal">Misure Corporee e Obiettivo</string>
+    <string name="profile_height_label">Altezza</string>
+    <string name="profile_weight_label">Peso Attuale</string>
+    <string name="profile_target_goal">Obiettivo di Fitness</string>
+    <string name="profile_weekly_target_label">Obiettivo Settimanale</string>
+    <string name="profile_edit_info">Modifica Informazioni Profilo</string>
+    <string name="profile_user_name_hint">Nome Completo / Nickname</string>
+    <string name="profile_height_hint">Altezza (cm)</string>
+    <string name="profile_records_broken">Record Superati</string>
+    <string name="profile_records_count">%1$d Record</string>
+    <string name="profile_sessions_count">%1$d Sessioni</string>
+    <string name="profile_prs_showcase_title">Bacheca Record (%1$d)</string>
+    <string name="profile_prs_empty">Allenandoti, i tuoi migliori record personali appariranno qui.</string>
+    <string name="profile_edit_dialog_title">Modifica Profilo</string>
+    <string name="profile_goal_hypertrophy">Ipertrofia e Massa Muscolare</string>
+    <string name="profile_goal_fat_loss">Dimagrimento e Definizione</string>
+    <string name="profile_goal_strength">Forza e Powerlifting</string>
+    <string name="profile_goal_general">Fitness Generale e Salute</string>
+    <string name="profile_days_count">%1$d Giorni</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Impostazioni e Preferenze</string>
+    <string name="settings_section_appearance">Aspetto e Tema</string>
+    <string name="settings_theme_title">Tema dell\'Applicazione</string>
+    <string name="settings_theme_desc">Scegli scuro, chiaro o segui il sistema:</string>
+    <string name="settings_theme_system">Predefinito di Sistema</string>
+    <string name="settings_theme_system_desc">Si adatta automaticamente al tema del dispositivo</string>
+    <string name="settings_theme_dark">Tema Scuro</string>
+    <string name="settings_theme_dark_desc">Stile scuro ed elegante che riduce l\'affaticamento visivo</string>
+    <string name="settings_theme_light">Tema Chiaro</string>
+    <string name="settings_theme_light_desc">Aspetto luminoso e chiaro per il giorno</string>
+
+    <string name="settings_section_language">Lingua / Language</string>
+    <string name="settings_language_title">Lingua dell\'App</string>
+    <string name="settings_language_desc">Seleziona la tua lingua preferita</string>
+    <string name="settings_language_system">Predefinito di Sistema (Lingua del dispositivo)</string>
+    <string name="settings_language_tr">Türkçe</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_language_de">Deutsch (Tedesco)</string>
+    <string name="settings_language_es">Español (Spagnolo)</string>
+    <string name="settings_language_it">Italiano</string>
+
+    <string name="settings_section_sound">Audio e Notifiche</string>
+    <string name="settings_rest_sound_title">Suono di Fine Recupero</string>
+    <string name="settings_rest_sound_desc">Suono riprodotto al termine del conto alla rovescia:</string>
+    <string name="settings_sound_beep">Beep Classico (Predefinito)</string>
+    <string name="settings_sound_beep_desc">Suono standard breve a doppio tono</string>
+    <string name="settings_sound_bell">Gong da Boxe / Campanella</string>
+    <string name="settings_sound_bell_desc">Tono motivante del ring da boxe</string>
+    <string name="settings_sound_chime">Chime Digitale / Notifica</string>
+    <string name="settings_sound_chime_desc">Tono morbido e chiaro di conferma</string>
+    <string name="settings_sound_whistle">Fischietto da Allenatore</string>
+    <string name="settings_sound_whistle_desc">Fischietto sportivo squillante</string>
+    <string name="settings_sound_silent">Silenzioso</string>
+    <string name="settings_sound_silent_desc">Solo timer visivo e vibrazione</string>
+    <string name="settings_vibration_title">Vibrazione Aptica</string>
+    <string name="settings_vibration_desc">Vibra al termine di serie e tempi di recupero</string>
+
+    <string name="settings_section_experience">Esperienza di Allenamento</string>
+    <string name="settings_keep_screen_on_title">Mantieni Schermo Attivo</string>
+    <string name="settings_keep_screen_on_desc">Impedisce lo spegnimento dello schermo durante l\'allenamento</string>
+
+    <string name="settings_section_danger">Gestione Dati</string>
+    <string name="settings_reset_data_title">Ripristina Dati dell\'App</string>
+    <string name="settings_reset_data_desc">Cancella tutti gli allenamenti, schede e registrazioni peso</string>
+    <string name="settings_reset_confirm_title">Ripristinare tutti i dati?</string>
+    <string name="settings_reset_confirm_msg">Questo eliminerà permanentemente tutte le tue sessioni, schede ed esercizi personalizzati in questo profilo. Non si può annullare.</string>
+    <string name="settings_reset_success">Tutti i dati sono stati ripristinati con successo.</string>
+
+    <string name="settings_developer_title">Opzioni Sviluppatore 🛠️</string>
+    <string name="settings_developer_desc">Genera dati fittizi, controlla lo stato del database</string>
+
+    <!-- Notification Service -->
+    <string name="notif_channel_name">Avvisi di Allenamento e Recupero</string>
+    <string name="notif_channel_desc">Notifiche per tempi di recupero e sessioni attive</string>
+    <string name="notif_rest_done_title">Recupero Completato! ⏱️</string>
+    <string name="notif_rest_done_body">È ora di spaccare nella prossima serie!</string>
+    <string name="notif_rest_done_set_ready">Sei pronto per %1$s (Serie %2$d)! 💪</string>
+
+    <!-- Photo Cropper & Filter Presets -->
+    <string name="crop_title">Ritaglia e Allinea Foto</string>
+    <string name="crop_rotate">Ruota</string>
+    <string name="crop_hint">👆 Trascina, ingrandisci o rimpicciolisci liberamente</string>
+    <string name="crop_confirm">Ritaglia e Aggiungi Foto</string>
+    <string name="photo_load_failed">Impossibile caricare la foto</string>
+
+    <string name="preset_original">Originale</string>
+    <string name="preset_gemini_ai">Gemini AI</string>
+    <string name="preset_gym_pump">Pump Palestra</string>
+    <string name="preset_moody_dark">Carbonio Drammatico</string>
+
+    <string name="ai_lighting_title">✨ Ottimizzazione Luci e Toni IA</string>
+    <string name="ai_lighting_analyzing">⚡ Gemini 1.5 Flash sta analizzando la luce della palestra…</string>
+    <string name="ai_lighting_auto_enhance">✨ Ottimizza automaticamente con Gemini 1.5 Flash</string>
+    <string name="ai_lighting_success_toast">✨ Luce ottimizzata con Gemini 1.5 Flash!</string>
+    <string name="ai_lighting_local_toast">Motore luci intelligente locale applicato! ✨</string>
+
+    <!-- Share & Story Card -->
+    <string name="share_card_new_prs">🏆 NUOVI RECORD PERSONALI (%1$d)</string>
+    <string name="share_card_great_session">Ottima sessione! Tutte le serie e ripetizioni completate con successo.</string>
+    <string name="share_card_completed_exercises">ESERCIZI COMPLETATI</string>
+    <string name="share_card_saved_gallery">Riepilogo salvato nella Galleria! 📸</string>
+    <string name="share_card_save_error">Errore durante il salvataggio: %1$s</string>
+    <string name="share_card_share_error">Errore durante la condivisione: %1$s</string>
+
+    <!-- Developer Mode -->
+    <string name="dev_mode_unlocked">Ora sei uno sviluppatore! 🚀 Gestore configurazioni attivato.</string>
+    <string name="dev_mode_already_active">La modalità sviluppatore è già attiva! 🛠️</string>
+</resources>
